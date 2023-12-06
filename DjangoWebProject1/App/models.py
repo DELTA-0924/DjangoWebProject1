@@ -22,5 +22,4 @@ class Managers(models.Model):
     email=models.CharField(max_length=255)
     dataCreated=models.CharField(max_length=255,blank=True,null=True)
     password=models.CharField(max_length=255)
-    countDeal=models.IntegerField()
-    
+    countDeal=models.IntegerField(blank=True,null=True)    
